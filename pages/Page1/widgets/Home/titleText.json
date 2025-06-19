@@ -41,7 +41,7 @@
   "rightColumn": 51,
   "shouldTruncate": false,
   "text": "Cyberprofiles",
-  "textAlign": "LEFT",
+  "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",

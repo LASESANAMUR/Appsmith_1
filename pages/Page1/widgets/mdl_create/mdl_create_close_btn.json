@@ -31,7 +31,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(mdl_create.name);}}",
+  "onClick": "{{showModal(Home.name).then(() => {\n  navigateTo(\"\", {}, 'SAME_WINDOW');\n});}}",
   "parentId": "bytdz17lhu",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",

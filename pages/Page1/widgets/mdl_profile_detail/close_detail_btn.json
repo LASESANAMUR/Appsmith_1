@@ -32,7 +32,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(mdl_profile_detail.name);}}",
+  "onClick": "{{showModal(Home.name);}}",
   "parentId": "evlgs7nzxl",
   "placement": "CENTER",
   "recaptchaType": "V3",
