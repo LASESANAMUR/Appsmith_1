@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 56,
+  "bottomRow": 63,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -402,12 +402,6 @@
       "key": "schema.__root_schema__.children.path.cellBorderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.field_logo.children.__array_item__.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.field_logo.cellBorderRadius"
-    },
-    {
       "key": "schema.__root_schema__.children.nid.children.__array_item__.accentColor"
     },
     {
@@ -454,9 +448,6 @@
     },
     {
       "key": "schema.__root_schema__.children.path.children.__array_item__.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.field_logo.children.__array_item__.accentColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -550,7 +541,7 @@
           "label": "Changed",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "changed",
-          "position": 12,
+          "position": 13,
           "sourceData": [
             {
               "format": "Y-m-d\\TH:i:sP",
@@ -600,7 +591,7 @@
           "label": "Created",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "created",
-          "position": 11,
+          "position": 12,
           "sourceData": [
             {
               "format": "Y-m-d\\TH:i:sP",
@@ -650,7 +641,7 @@
           "label": "Default Langcode",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "default_langcode",
-          "position": 15,
+          "position": 16,
           "sourceData": [
             {
               "value": true
@@ -673,10 +664,10 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Field Alternative Title S",
+          "label": "Alternative Title",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "field_alternative_title_s_",
-          "position": 18,
+          "position": 19,
           "sourceData": ""
         },
         "field_code_profile": {
@@ -695,10 +686,10 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Field Code Profile",
+          "label": "Code Profile",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "field_code_profile",
-          "position": 19,
+          "position": 20,
           "sourceData": "crm"
         },
         "field_e_competences_from_e_cf_": {
@@ -717,7 +708,7 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Field E Competences From E Cf",
+          "label": "E-Competences",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "field_e_competences_from_e_cf_",
           "position": 21,
@@ -726,46 +717,23 @@
         "field_logo": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "accessor": "field_logo",
-          "backgroundColor": "#FAFAFA",
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
           "boxShadow": "none",
-          "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
-          "cellBoxShadow": "none",
-          "children": {
-            "__array_item__": {
-              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
-              "accessor": "__array_item__",
-              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
-              "boxShadow": "none",
-              "children": {},
-              "dataType": "undefined",
-              "fieldType": "Text Input",
-              "iconAlign": "left",
-              "identifier": "__array_item__",
-              "isCustomField": false,
-              "isDisabled": false,
-              "isRequired": false,
-              "isSpellCheck": false,
-              "isVisible": true,
-              "label": "Array Item",
-              "labelTextSize": "0.875rem",
-              "originalIdentifier": "__array_item__",
-              "position": -1
-            }
-          },
+          "children": {},
           "dataType": "array",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.field_logo))(createJSONForm.sourceData, createJSONForm.formData, createJSONForm.fieldState)}}",
-          "fieldType": "Array",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
           "identifier": "field_logo",
-          "isCollapsible": true,
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
-          "isVisible": false,
-          "label": "Field Logo",
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Logo",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "field_logo",
-          "position": 24,
+          "position": 10,
           "sourceData": [
             {
               "alt": "crm",
@@ -795,10 +763,10 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Field Summary Statement",
+          "label": "Summary Statement",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "field_summary_statement",
-          "position": 27,
+          "position": 22,
           "sourceData": "Manage the organisation's cybersecurity-related risks aligned to the organisation’s strategy. Develop, maintain and communicate the risk management processes and reports."
         },
         "langcode": {
@@ -941,7 +909,7 @@
           "label": "Path",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "path",
-          "position": 17,
+          "position": 18,
           "sourceData": [
             {
               "langcode": "en"
@@ -990,7 +958,7 @@
           "label": "Promote",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "promote",
-          "position": 13,
+          "position": 14,
           "sourceData": [
             {
               "value": true
@@ -1125,7 +1093,7 @@
           "label": "Revision Translation Affected",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "revision_translation_affected",
-          "position": 16,
+          "position": 17,
           "sourceData": [
             {
               "value": true
@@ -1275,7 +1243,7 @@
           "label": "Sticky",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "sticky",
-          "position": 14,
+          "position": 15,
           "sourceData": [
             {
               "value": false
@@ -1301,7 +1269,7 @@
           "label": "Title",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "title",
-          "position": 10,
+          "position": 11,
           "sourceData": "Cybersecurity Risk Manager"
         },
         "type": {

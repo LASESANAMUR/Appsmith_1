@@ -8,6 +8,7 @@
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
+  "cellBackground": "{{}}",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -66,7 +67,7 @@
   "columnWidthMap": {
     "customColumn1": 60
   },
-  "compactMode": "TALL",
+  "compactMode": "DEFAULT",
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -185,6 +186,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "cellBackground"
     }
   ],
   "dynamicTriggerPathList": [
@@ -209,7 +213,7 @@
   "isVisibleSearch": true,
   "key": "oz416poqs3",
   "label": "Data",
-  "leftColumn": 2,
+  "leftColumn": 1,
   "minWidth": 450,
   "mobileBottomRow": 42,
   "mobileLeftColumn": 19,
@@ -1131,14 +1135,15 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "searchKey": "",
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{getProfiles.data}}",
   "textSize": "0.875rem",
-  "topRow": 11,
+  "topRow": 10,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
+  "variant": "DEFAULT",
   "version": 2,
   "verticalAlignment": "CENTER",
   "widgetId": "b0a9u1z1f7",

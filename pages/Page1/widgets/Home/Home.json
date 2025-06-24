@@ -1,5 +1,6 @@
 {
   "animateLoading": true,
+  "backgroundColor": "{{}}",
   "borderRadius": "0px",
   "bottomRow": 566,
   "boxShadow": "none",
@@ -53,6 +54,14 @@
   "detachFromLayout": true,
   "dynamicBindingPathList": [],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "height": 550,
   "isCanvas": true,
@@ -78,5 +87,5 @@
   "version": 2,
   "widgetId": "wo6qwc06dz",
   "widgetName": "Home",
-  "width": 1097.75
+  "width": 844.3499999999999
 }
